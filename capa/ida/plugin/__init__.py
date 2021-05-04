@@ -54,7 +54,7 @@ class CapaExplorerPlugin(idaapi.plugin_t):
 
     def run(self, arg):
         """called when IDA is running the plugin as a script"""
-        self.form = CapaExplorerForm(self.PLUGIN_NAME)
+        self.form = CapaExplorerForm(self.PLUGIN_NAME, arg)
         return True
 
 

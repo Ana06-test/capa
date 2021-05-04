@@ -8,6 +8,8 @@ The first Python 3 ONLY capa version.
 
 - main: auto detect shellcode based on file extension #516 @mr-tz
 - main: use FLIRT signatures to identify and ignore library code #446 @williballenthin
+- explorer: add `1` argument to automatically analyze when running capa explorer #548 @Ana06
+  `ida_loader.load_and_run_plugin("capa_explorer", 1)`
 
 ### New Rules
 
